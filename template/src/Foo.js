@@ -9,7 +9,7 @@ export default Vue.extend({
   },
   render(h) {
     return (
-      <div style={{color:'green'}}>
+      <div style={ {color:'green'} }>
         {this.foo} {this.greet}
       </div>
     )
